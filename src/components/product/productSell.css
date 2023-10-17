@@ -1,0 +1,57 @@
+.product-card {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 1px whitesmoke;
+  border-radius: 10px;
+}
+
+
+.product-item-name {
+  font-size: 14px;
+  font-weight: 700;
+}
+.input-box {
+  border: none;
+  outline: none;
+  width: 100px;
+  padding: 2px;
+  background-color: whitesmoke;
+}
+
+.input-card {
+  border-radius: 10px;
+  background-color: whitesmoke;
+  margin-right: 15px;
+}
+.icon-search {
+  margin: 0px 10px;
+}
+.days-text {
+  font-size: 12px;
+  padding: 2px 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin-right: 4px;
+}
+.p-name,
+.p-1,
+.p-2,
+.p-3 {
+  color: gray;
+  font-size: 10px;
+  font-weight: 600;
+}
+.image{
+  width:90px;
+  height: 55px;
+  border-radius: 10px;
+}
+.p-head-item{
+  font-size: 12px;
+}
+.p-description{
+  color: gray;
+  font-size: 10px;
+  font-weight: 600;
+}

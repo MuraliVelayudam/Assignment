@@ -1,0 +1,72 @@
+.dash-card {
+  margin: 20px;
+  width: 100vw;
+}
+.wish-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-card {
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 190px;
+  padding: 4px 0px 4px 6px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px lightgray;
+}
+.input-search {
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  background-color: whitesmoke;
+}
+.input-search::placeholder {
+  font-size: 10px;
+  color: lightgray;
+}
+
+.track-card {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  border-radius: 15px 20px;
+  padding: 10px 30px;
+  background-color: white;
+  box-shadow: 0px 0px 1px lightgray;
+}
+.money {
+  font-size: 60px;
+}
+
+.box-description > p,
+h1 {
+  margin: 0;
+}
+.icon {
+  background-color: rgba(0, 128, 0, 0.7);
+  border-radius: 100%;
+  padding: 20px;
+  margin-right: 15px;
+}
+
+.earn {
+  font-size: 12px;
+}
+.m-head {
+  font-size: 18px;
+}
+.para-month {
+  font-size: 12px;
+}
+.arrow-head {
+  color: green;
+  font-weight: bold;
+}

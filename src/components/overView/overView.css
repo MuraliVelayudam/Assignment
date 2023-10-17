@@ -1,0 +1,95 @@
+.over-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.month-card {
+  background-color: white;
+  box-shadow: 0px 0px 1px lightgray;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.des-container {
+  display: flex;
+  justify-content: space-between;
+  width: 45vw;
+  height: 60px;
+}
+.head-over > p {
+  margin: 0;
+  font-size: 10px;
+  color: gray;
+}
+
+.monthly-over > p {
+  font-size: 12px;
+  color: black;
+  background-color: lightgray;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+
+.circle-card {
+  height: 239px;
+  padding: 20px;
+  width: 25vw;
+  background-color: white;
+  box-shadow: 0px 0px 1px lightgray;
+  border-radius: 10px;
+}
+
+.customers-card > p {
+  margin: 0;
+  color: gray;
+  font-size: 12px;
+}
+.customers-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pie-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100px;
+}
+
+.progress {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background: conic-gradient(#7d2ae8 3.8deg, white 320deg);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 0px 0px 1px black; */
+}
+
+.progress::before {
+  content: "";
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: white;
+  /* box-shadow: 0px 0px 10px black; */
+}
+.text {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+}
+
+.customers-text {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}

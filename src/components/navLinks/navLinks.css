@@ -1,0 +1,21 @@
+.link-card {
+  margin-top: 30px;
+}
+
+.dash {
+  background-color: #005b148a;
+}
+
+.dash-container {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0px 20px;
+  margin: 10px 0px;
+}
+
+.dash-para {
+  color: white;
+  margin-left: 10px;
+  font-size: 12px;
+}

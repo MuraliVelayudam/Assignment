@@ -1,0 +1,19 @@
+.nav-container {
+  background-color: rgb(141, 155, 84);
+  width: 200px;
+  padding: 0px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dash-head-card {
+  display: flex;
+  align-items: center;
+}
+.dash-heading {
+  color: white;
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: 400;
+}

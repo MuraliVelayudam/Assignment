@@ -1,0 +1,35 @@
+.user-card {
+  background: rgba(92, 131, 77, 0.312);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.img-container{
+  display: flex;
+  align-items: center;
+
+}
+.img-container > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.name-container > p {
+  margin: 0;
+  color: white;
+  font-size: 12px;
+}
+
+.name-user {
+  font-weight: 600;
+  font-variant: small-caps;
+}
+.user-description-container {
+  display: flex;
+  align-items: center;
+}
